@@ -6,17 +6,9 @@
         </title>
     </head>
     <style>
-    body{
-        background-color: yellow;
-        color: lightyellow;
-    }
-    p{
-        background-color: red;
-    }
         span
         {
-            color: green;
-        
+            color: red;
         }
     </style>
 </html>
