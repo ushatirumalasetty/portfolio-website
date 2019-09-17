@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>
+            My Portfolio
+        </title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,
+        initial - scale = 1,shrink-to-fit=no">
+        <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+        <script src="bootstrap/jquery.min.js"></script>
+        <script src="bootstrap/popper.min.js"></script>
+        <script src="bootstrap/bootstrap.min.js"></script>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-4"></div>
+                <img src="static/skills/c-language-icon"></img>
+                <h1>C</h1>
+                <p>C is a programming language</p>
+                <div class="col-4"></div>
+                <img src="static/skills/CSS Icon" <h1>HTML</h1>
+                <p>Hyper Text Markup Language (HTML) is a markup language for creating a webpage</p>
+                <div class="col-4"></div>
+                <h1>CSS</h1>
+                <P>CSS stands for Cascading Style Sheets.Its purpose is to style HTML doccument </P>
+            </div>
+        </div>
+    </body>

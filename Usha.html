@@ -17,20 +17,33 @@
         <style>
             .row {
                 margin-top: 5px;
-                background-color: lightgreen;
             }
 
             .logo {
-                object-fit: contain;
-                background-color: red;
 
+                object-fit: contain;
+                height: 100%;
+                width: 100%;
             }
 
             .u {
-                border: 30px solid orange;
+                border: 3px solid orange;
+            }
+
+            .col-orange {
+                background-color: red;
+            }
+
+            .border-box {
+                border: 10px solid brown;
+            }
+
+            body {
+                background-image: url("https://tap.ibhubs.in/assets/static/ibhubs_logo.png");
+                background-repeat: no-repeat;
+                background-size: contain;
             }
         </style>
-
     </head>
 
     <body class="u">
@@ -41,16 +54,15 @@
                     <h4>PAN INDIA STARTUP HUB!</h4>
                     <br>
                     <br>
-                    <p><i>500 hubs with e spokes each,establishing a total of 2500 centres accross India by the end of 2019</i></p>
+                    <p class="border-box inner-box"><i>500 hubs with e spokes each,establishing a total of 2500 centres accross India by the end of 2019</i></p>
                     <br>
-                    <p><i>With this,world-class innovation and best practise can reach people accross the nation rapidly</i></p>
+                    <p class="border-box"><i>With this,world-class innovation and best practise can reach people accross the nation rapidly</i></p>
                 </div>
                 <div class="col-6 col-height col-orange">
-                    <img class="logo" src="https://tap.ibhubs.in/assets/static/ibhubs_logo.png" height="300" width="350" alt="iBHubs logo">
-
-                </div>
+                    <img class="logo" src="https://tap.ibhubs.in/assets/static/ibhubs_logo.png" height="250" width="250" alt="iBHubs logo"></div>
 
             </div>
+        </div>
     </body>
 
 </html>
