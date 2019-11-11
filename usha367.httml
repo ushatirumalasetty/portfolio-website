@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        @media screen and (min-width: 786px) {
+            body {
+                background-color: green;
+            }
+    </style>
+
+</html>

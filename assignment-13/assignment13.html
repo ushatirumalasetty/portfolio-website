@@ -18,9 +18,9 @@
     .l {
       padding-top: 30px;
       padding-bottom: 20px;
-      border: 1px solid grey;
-      margin-left: 20px;
-      margin-right: 20px;
+
+      margin-left: 0px;
+      margin-right: 00px;
       margin-bottom: 40px;
     }
 
@@ -100,6 +100,21 @@
     .usha {
       text-align: right;
     }
+
+    .text-md-left {
+      text-align: left;
+    }
+
+    .text-align {
+      text-align: center;
+      color: grey;
+    }
+
+    .usa {
+      background-clip: content;
+      margin: 20px;
+      border: 1px solid grey;
+    }
   </style>
 
   <body>
@@ -118,13 +133,13 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-12">
+        <div class="col-12 col-md-1">
           <center style="font-size:20px">
             <p style="color:grey">Explore</p>
           </center>
         </div>
-        <div class="col-12 c">
-          <center style="color:grey">Topics &nbsp; Trending &nbsp; Collections &nbsp; Event</center>
+        <div class="col-12 c col-md-11 text-md-left text-align">
+          Topics &nbsp; Trending &nbsp; Collections &nbsp; Event
         </div>
 
       </div>
@@ -138,73 +153,94 @@
           </center>
         </div>
       </div>
-      <div class="row l">
-        <div class="col-12">
-          <center><img src="assets/opengl.png" height="60px" width="60px"> </center>
-        </div>
-        <div class="col-12">
-          <center>
-            <h5 style="color:grey"><br>OpenGL</h5>
-          </center>
-          <center>
-            <p style="color:grey">OpenGL is a software interface that allows a programmer to communicate with graphics hardware.</p>
-          </center>
-
-        </div>
-      </div>
-      <div class="row l">
-        <div class="col-12">
-          <center><img src="assets/gradle.png" height="60px" width="60px"> </center>
-        </div>
-        <div class="col-12">
-          <center>
-            <h5 style="color:grey"><br>Gradle</h5>
-          </center>
-          <center>
-            <p style="color:grey">Gradle is an open-source build tool that helps team build, automate and deliver better software, faster.</p>
-          </center>
-
-        </div>
-      </div>
       <div class="row">
+
+        <div class="col-12 l col-md-4">
+          <div class="usa">
+            <center><img src="assets/opengl.png" height="60px" width="60px"> </center>
+            <center>
+              <h5 style="color:grey"><br>OpenGL</h5>
+            </center>
+            <center>
+              <p style="color:grey">OpenGL is a software interface that allows a programmer to communicate with graphics hardware.</p>
+            </center>
+          </div>
+        </div>
+
+        <div class="col-12 l col-md-4">
+          <div class="usa">
+            <center><img src="assets/flask.png" height="60px" width="60px"> </center>
+            <center>
+              <h5 style="color:grey"><br>Flask</h5>
+            </center>
+            <center>
+              <p style="color:grey">Flask is a software interface that allows a programmer to communicate with graphics hardware.</p>
+            </center>
+
+          </div>
+        </div>
+
+        <div class="col-12 l col-md-4">
+          <div class="usa">
+            <center><img src="assets/gradle.png" height="60px" width="60px"> </center>
+
+            <center>
+              <h5 style="color:grey"><br>Gradle</h5>
+            </center>
+            <center>
+              <p style="color:grey">Gradle is an open-source build tool that helps team build, automate and deliver better software, faster.</p>
+            </center>
+          </div>
+        </div>
+      </div>
+      <div class="row l">
         <div class="col-12">
           <h3>All featured topics</h3>
         </div>
       </div>
       <div class="row j">
-        <div class="col-2 y">#</div>
-        <div class="col-10">
+        <div class="col-2 y col-md-2">#</div>
+        <div class="col-10 col-md-8">
           <h4>3D</h4>
-          <p style="color:grey">3D modelling is the process of virtually devoloping the surface and structure of a 3D object.<br>
-            <button type="button" class="btn btn-light btn-sm"><img src="assets/star.svg">star</button></p>
 
+          <p style="color:grey">3D modelling is the process of virtually devoloping the surface and structure of a 3D object.<br>
         </div>
+        <div class="col-md-2">
+          <button type="button" class="btn btn-light btn-sm"><img src="assets/star.svg">star</button></p>
+        </div>
+
       </div>
 
       <div class="row j">
-        <div class="col-2 y">#</div>
-        <div class="col-10">
+        <div class="col-2 y col-md-2">#</div>
+        <div class="col-10 col-md-9">
           <h4>Ajax</h4>
           <P style="color:grey">Ajax is a technique for creating interactive web applications<br>
-            <button type="button" class="btn btn-light btn-sm"><img src="assets/star.svg">star</button></P>
-
         </div>
+        <div class="col-md-1">
+          <button type="button" class="btn btn-light btn-sm"><img src="assets/star.svg">star</button></P>
+        </div>
+
       </div>
       <div class="row j">
-        <div class="col-2 y">#</div>
-        <div class="col-10">
+        <div class="col-2 col-md-2 y">#</div>
+        <div class="col-10 col-md-9">
           <h4>Algorithm</h4>
           <P style="color:grey">Algorithms are self-contained sequences that carry out a variety of tasks.<br>
-            <button type="button" class="btn btn-light btn-sm"><img src="assets/star.svg">star</button></P>
+        </div>
+        <div class="col-md-1">
+          <button type="button" class="btn btn-light btn-sm"><img src="assets/star.svg">star</button></P>
 
         </div>
       </div>
       <div class="row j">
-        <div class="col-2 "><img src="assets/amphp.png" height="60px" width="60px"></div>
-        <div class="col-10 ">
+        <div class="col-2 col-md-2"><img src="assets/amphp.png" height="60px" width="60px"></div>
+        <div class="col-10 col-md-9 ">
           <h4>Amp</h4>
           <P style="color:grey ">Amp is a non-blocking concurrency framework for PHP<br>
-            <button type="button " class="btn btn-light btn-sm "><img src="assets/star.svg">star</button>
+        </div>
+        <div class="col-md-1">
+          <button type="button " class="btn btn-light btn-sm "><img src="assets/star.svg">star</button>
           </P>
 
         </div>
