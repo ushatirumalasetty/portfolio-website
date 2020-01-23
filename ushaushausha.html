@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>
+            My Portfolio
+        </title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,
+        initial - scale = 1,shrink-to-fit=no">
+        <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+        <script src="bootstrap/jquery.min.js"></script>
+        <script src="bootstrap/popper.min.js"></script>
+        <script src="bootstrap/bootstrap.min.js"></script>
+    </head>
+    <style>
+        .flexbox {
+            display: flex;
+            flex-direction: row;
+            background-color: orange;
+            justify-content: space-evenly;
+
+            flex-wrap: wrap;
+            align-items: center;
+            height: 500px;
+            border: 30px solid purple;
+
+        }
+
+        .item {
+            background-color: lightgreen;
+            padding: 20px;
+            border-radius: 50px;
+            border: 2px solid blue;
+            margin-left: 10px;
+            margin-right: 10px;
+            font-size: 40px;
+        }
+
+        .cat {
+            align-self: flex-end;
+
+
+        }
+
+        .dog {
+            align-self: stretch;
+        }
+
+        .horse {
+            align-self: flex-start;
+            order: 1;
+        }
+
+        .tiger {
+            flex-grow: 1;
+        }
+    </style>
+
+    <body>
+
+        <div class="flexbox">
+            <div class="cat item">🐱</div>
+            <div class="dog item">🐶</div>
+            <div class="horse item">🦓</div>
+            <div class="hedgehog item">🦔</div>
+            <div class="tiger item">🦑</div>
+            <div class="lion item">🦐</div>
+            <div class="kangaroo item">🦞</div>
+            <div class="bird item">🦀</div>
+    </body>
+
+</html>

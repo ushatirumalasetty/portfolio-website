@@ -169,3 +169,85 @@ for i in range(m):
 for i in range(m):
     for i in range(n):
         print(a[i][j])
+
+
+
+
+string_name=input()
+no_of_operations=input()
+for number in range (int(no_of_operations)):
+    operation_name=input()
+    if operation_name.find("find")==0:
+        k= operation_name.replace("find ","")
+        print(string_name.find(k))
+    elif operation_name.find("remove")==0:
+        k=operation_name.replace("remove ","")
+        print(string_name.replace(k,""))
+    elif operation_name.find("count")==0:
+        k=operation_name.replace("count ","")
+        print(string_name.count(k))
+    elif operation_name.find("substring")==0:
+        k=operation_name.replace("substring ","")
+        value1=int(k[0])
+        value2=int(k[2])
+        print(string_name[value1:value2])
+    elif operation_name.find("startswith")==0:
+        k=operation_name.replace("startswith ","")
+        if string_name.find(k)==0:
+             print("True")
+        else:
+             print("False")
+
+
+
+n=int(input())
+usha={}
+marksheet=[]
+scoresheet=[]
+for i in range (n):
+    name=input()
+    score=float(input())
+    marksheet+=[[name,score]]
+    scoresheet+=[score]
+b=sorted(list(set(scoresheet)))[1]
+for m,n in marksheet:
+    if n==float(b):
+        print(m)
+
+MERGE SORT
+
+string=input()
+length=int(input())
+it=iter(string)
+for part in zip(*([it]*length)):
+    d=dict()
+    print("".join([d.setdefault(c,c) for c in part if c not in d]))
+
+
+PERMUTATIONS AND COMBINATIONS
+
+
+from itertools import permutations
+string=input().split(" ")
+k=list(permutations(string[0],int(string[1])))
+k.sort()
+for i in k:
+    print("".join(i))
+
+
+
+
+SUBSETS OF AN ARRAY(HAPPINESS)
+
+
+length=set(map(int,input().split()))
+array=set(map(int,input().split()))
+array1=set(map(int,input().sp
+lit()))
+array2=set(map(int,input().split()))
+k=[]
+p=0
+k+=[(i in array1)-(i in array2)for i in array]
+for i in k:
+    p+=i
+print(p)

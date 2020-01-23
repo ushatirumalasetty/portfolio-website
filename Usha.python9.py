@@ -5,4 +5,5 @@ maximum=max(a)
 for i in a:
     if i==maximum:
         a.remove(i)
-print(a)
+a=int(a)
+

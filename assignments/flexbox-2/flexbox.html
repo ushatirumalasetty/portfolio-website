@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Flexbox</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" type="text/css" href="flexbox.css" />
+  </head>
+  <style>
+    body {
+      background-color: lightgrey;
+    }
+
+    .flexbox {
+      display: flex;
+      background-color: white;
+
+    }
+
+    .i {
+      width: 50px;
+      border-radius: 100%;
+      height: 50px;
+    }
+
+    .i2 {
+      width: 20px;
+      padding-right: 5px;
+
+    }
+
+    .sub-item {
+      display: flex;
+    }
+
+    .i3 {
+      height: 20px;
+      width: 20px;
+      align-self: flex-end;
+      margin-left: 95px;
+      text-align: right;
+    }
+
+    span {
+      padding-right: 20px;
+    }
+
+    .usha {
+      padding-bottom: 10px;
+    }
+
+    .item {
+      padding-left: 10px;
+    }
+
+    .k {
+      padding-left: 7px;
+
+    }
+
+    .t {
+      color: grey;
+    }
+
+    .u {
+      align-self: space-between;
+    }
+  </style>
+
+  <body>
+    <div class="flexbox">
+      <img src="assets/twitter.jpg" width=50px height=50px class="i">
+      <div class="item">
+        <div class="sub-item">
+          <div><b>Twitter</b></div>
+          <div><img src="assets/tick.svg" class="i2"></div>
+          <div><span class="t">@Twitter . Jan 1</span></div>
+          <div><img src="assets/drop_down.svg" class="i3"></div>
+        </div>
+        <div class="sub-item">
+          <span class="usha">New decade,drink water</span>
+        </div>
+        <div class="sub-item t">
+          <div class="u"><img src="assets/message.svg" width=25px height=25px></img>
+          </div>
+          <span class="k">13.5k</span>
+          <div class="u"><img src="assets/retweet.svg" width=25px height=25px></img>
+          </div>
+          <span class="k">290.8k</span>
+          <div class="u"><img src="assets/like.svg" width=25px height=25px></img>
+          </div>
+          <span class="k">943.13k</span>
+          <div class="u"><img src="assets/share.svg" width=20px height=20px></img>
+          </div>
+        </div>
+      </div>
+  </body>
+
+</html>
